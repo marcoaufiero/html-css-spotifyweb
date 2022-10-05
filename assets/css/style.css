@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* utility */
+
+.flex{
+    display: flex;
+}
+
+.f-space-between{
+    justify-content: space-between;
+}
+
+
+/* common */
+
+.container{
+    width: 100vw;
+}
+
+/* MAIN SECTION */
+
