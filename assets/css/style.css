@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    background-color: #141922;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* utility */
@@ -14,12 +21,80 @@
     justify-content: space-between;
 }
 
+.f-column{
+
+}
+
+.flex-end{
+    justify-content: flex-end;
+}
+
 
 /* common */
 
 .container{
-    width: 100vw;
+    height: 100vh;
+}
+
+.btn{
+    display: block;
+    padding: 10px 15px;
+    border-radius: 100vmax;
 }
 
 /* MAIN SECTION */
 
+.main-section{
+    width: 100%;
+}
+
+/* side bar */
+
+.side-bar{
+    background-color: black;
+    position: relative;
+    z-index: 2;
+    padding: 20px 100px 10px 20px;
+    height: 100vh;
+}
+
+#logo-img{
+    width: 150px;
+
+}
+
+/* main container */
+
+.main-box{
+    flex-grow: 1;
+}
+
+
+
+/* top bar */
+
+.top-bar{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.top-bar-btn{
+    border: 2px solid white;
+    color: white;
+    margin: 20px;
+}
+
+
+.bottom-section{
+    background-color: #282828;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    z-index: 3;
+}
