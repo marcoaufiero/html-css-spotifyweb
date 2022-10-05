@@ -33,6 +33,10 @@ body{
     align-items: center;
 }
 
+.f-justify-center{
+    justify-content: center;
+}
+
 /* common */
 
 .container{
@@ -70,13 +74,37 @@ ul{
     height: 100vh;
 }
 
-.side-bar *{
-    color: white;
-}
-
 .side-bar-top > div{
     padding-bottom: 30px;
     line-height: 1.6rem;
+    color: grey;
+}
+
+.side-bar-top i{
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+.s-bar-first-section div{
+    padding: 5px 0;
+}
+
+.s-bar-first-section span{
+    font-weight: 600;
+}
+
+.s-bar-first-section i{
+    font-size: 1.3rem;
+}
+
+.side-bar ul{
+    line-height: 2rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.add-playlist{
+    padding: 5px 0;
 }
 
 .fa-square-plus{
@@ -92,6 +120,7 @@ ul{
     border-bottom: 1px solid white;
     padding-bottom: 10px;
     margin-bottom: 10px;
+    color: grey;
 }
 
 .profile-pic-box{
@@ -110,13 +139,16 @@ ul{
     height: 20px;
 }
 
+.profile-name{
+    color: white;
+    font-weight: 600;
+}
+
 /* main container */
 
 .main-box{
     flex-grow: 1;
 }
-
-
 
 /* top bar */
 
@@ -130,9 +162,11 @@ ul{
 }
 
 .top-bar-btn{
-    border: 2px solid white;
+    border: 1px solid white;
     color: white;
     margin: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
 }
 
 /* bottom section */
@@ -147,3 +181,99 @@ ul{
     z-index: 3;
 }
 
+/* bot section left */
+
+.foot-img-box{
+    width: 50px;
+    height: 50px;
+    margin: 0 15px;
+}
+
+.foot-img-box img{
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+}
+
+.bot-sect-left .song-artist{
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.bot-sect-left .song-name{
+    color: grey;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.bot-sect-left .left-foot-icons{
+    padding: 0 10px 0 50px;
+    color: grey;
+}
+
+.left-foot-icons i{
+    padding-right: 5px;
+}
+
+/* bot section center */
+
+.bot-sect-center{
+    flex-grow: 1;
+}
+
+.center-foot-icons > i{
+    color: white;
+    font-size: 1.3rem;
+    padding: 0 10px;
+}
+
+.fa-circle-play{
+    font-size: 2rem;
+    color: white;
+    padding: 0 20px;
+}
+
+.time-bar{
+    width: 50%;
+    height: 6px;
+    background-color: grey;
+    border-radius: 100vmax;
+}
+
+.current-time{
+    height: 6px;
+    width: 25%;
+    background-color: lightgray;
+    border-radius: 100vmax;
+}
+
+.time-box span{
+    color: white;
+    font-size: 0.6rem;
+    padding: 10px;
+}
+
+
+/* bot section right */
+
+.right-foot-icons i{
+    padding-right: 10px;
+    color: white;
+}
+
+
+.volume-bar{
+    width: 100px;
+    height: 6px;
+    background-color: grey;
+    border-radius: 100vmax;
+    margin-right: 25px;
+}
+
+.current-volume{
+    height: 6px;
+    width: 25%;
+    background-color: lightgray;
+    border-radius: 100vmax;
+}

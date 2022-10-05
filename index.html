@@ -21,11 +21,12 @@
             <div class="side-bar flex f-column f-space-between">
 
                 <div class="side-bar-top">
+                    
                     <div>
                         <img id="logo-img" src="./assets/img/logo.svg" alt="">
                     </div>
                         
-                    <div>
+                    <div class="s-bar-first-section">
                         <div><a href=""><i class="fa-solid fa-house"></i><span> Home</span></a></div>
                         <div><a href=""><i class="fa-solid fa-magnifying-glass"></i><span> Cerca</span></a></div>
                         <div><a href=""><i class="fa-solid fa-barcode"></i><span> Libreria</span></a></div>
@@ -33,7 +34,12 @@
                         
                     <div>
                         <h6>PLAYLIST</h6>
-                        <div><a href=""><i class="fa-solid fa-square-plus"></i><span> Crea Playlist</span></a></div>
+                        <div class="add-playlist">
+                            <a href="">
+                                <i class="fa-solid fa-square-plus"></i>
+                                <span> Crea Playlist</span>
+                            </a>
+                        </div>
                         <ul>
                             <li><a href="">Nome Playlist</a></li>
                             <li><a href="">Nome Playlist</a></li>
@@ -52,7 +58,7 @@
                         <div class="profile-pic-box">
                             <img class="profile-pic" src="./assets/img/profile.svg" alt="">
                         </div>
-                        <span> John Doe</span>
+                        <span class="profile-name"> John Doe</span>
                     </div>
                 </div>
 
@@ -69,7 +75,7 @@
                 </div>
                     
                 <div class="main-box">
-
+                    
                 </div>
 
             </div>
@@ -77,8 +83,58 @@
         </div>
             
             
-        <div class="bottom-section">
+        <div class="bottom-section flex f-space-between">
+
+            <div class="bot-sect-left flex f-space-between f-align-center">
+                
+                <div class="foot-img-box">
+                    <img src="./assets/img/sinister.jpeg" alt="">
+                </div>
+                <div>
+                    <div class="song-artist">Sinister</div>
+                    <span class="song-name">Nome Brano</span>
+                </div>
+                <div class="left-foot-icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-folder"></i>
+                </div>
             
+            </div>
+            
+            <div class="bot-sect-center flex f-column f-justify-center">
+
+                <div class="center-foot-icons flex f-align-center f-justify-center">
+                    <i class="fa-solid fa-shuffle"></i>
+                    <i class="fa-solid fa-backward-step"></i>
+                    <div class=""><i class="fa-regular fa-circle-play"></i></div>
+                    <i class="fa-solid fa-forward-step"></i>
+                    <i class="fa-solid fa-rotate-right"></i>
+                </div>
+                
+                <div class="time-box flex f-align-center f-justify-center">
+                    <span>0:25</span>
+                    <div class="time-bar">
+                        <div class="current-time"></div>
+                    </div>
+                    <span>4:35</span>
+                </div>
+
+            </div>
+
+            <div class="bot-sect-right flex f-space-between f-align-center">
+                
+                <div class="right-foot-icons">    
+                    <i class="fa-solid fa-list"></i>
+                    <i class="fa-solid fa-display"></i>
+                    <i class="fa-solid fa-volume-high"></i>
+                </div>
+                
+                <div class="volume-bar">
+                    <div class="current-volume"></div>
+                </div>
+            
+            </div>
+
         </div>
 
     
