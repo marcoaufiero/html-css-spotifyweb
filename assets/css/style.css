@@ -114,16 +114,20 @@ ul{
     font-size: 35px;
 }
 
-#logo-img{
+#logo-img1{
     width: 150px;
 
+}
+
+#logo-img2{
+    width: 25px;
+    display: none;
 }
 
 .download-btn{
     border-bottom: 1px solid white;
     padding-bottom: 10px;
     margin-bottom: 10px;
-    margin-right: 20px;
     color: grey;
 }
 
@@ -390,5 +394,39 @@ ul{
     .album-container h6{
         font-size: 0.8rem;
     }
+
+}
+
+@media screen and (max-width: 425px){
+    
+    .side-bar{
+        padding: 10px;
+    }
+
+    .side-bar *{
+        text-align: center;
+    }
+
+    .side-bar span, h6{
+        display: none;
+    }
+
+    .add-playlist{
+        display: none;
+    }
+
+    .profile-pic-box{
+        margin-left: 5px;
+    }
+
+    #logo-img1{
+        display: none;
+    
+    }
+
+    #logo-img2{
+        display: block;
+    }
+    
 
 }
