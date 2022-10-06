@@ -89,7 +89,7 @@ ul{
 }
 
 .s-bar-first-section div{
-    padding: 5px 0;
+    margin: 10px 0;
 }
 
 .s-bar-first-section span{
@@ -98,6 +98,12 @@ ul{
 
 .s-bar-first-section i{
     font-size: 1.3rem;
+}
+
+.s-bar-first-section > div:first-child{
+    border-left: 3px solid #ADFF2F;
+    color: white;
+    padding-left: 5px;
 }
 
 .side-bar ul{
@@ -172,6 +178,10 @@ ul{
     font-size: 0.8rem;
     color: grey;
     font-weight: 600;
+}
+
+.main-box-menu > div:first-child{
+    border-bottom: 2px solid #ADFF2F;
 }
 
 
@@ -465,4 +475,21 @@ ul{
         height: 30px;
     }
     
+}
+
+/* hover */
+
+.side-bar > div a:hover{
+    color: white;
+}
+
+.main-box-menu div:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.top-bar-btn:hover{
+    cursor:  pointer;
+    transform: scale(1.1);
+    transition: 0.3s;
 }
