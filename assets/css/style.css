@@ -493,3 +493,19 @@ ul{
     transform: scale(1.1);
     transition: 0.3s;
 }
+
+.bottom-section i:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.center-foot-icons div:hover{
+    transform: scale(1.2);
+    transition: 0.1s;
+}
+
+.bot-sect-left span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+}
