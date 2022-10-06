@@ -37,6 +37,9 @@ body{
     justify-content: center;
 }
 
+.f-wrap{
+    flex-wrap: wrap;
+}
 
 /* common */
 
@@ -150,19 +153,67 @@ ul{
 .main-container{
     width: calc(100%);
     height: calc(100vh - 100px);
-    flex-wrap: wrap;
-}
-
-.main-box{
-    flex: 1;
-    padding-top: 100px;
-    flex-wrap: wrap;
+    overflow: auto;
 }
 
 .main-box-menu{
     color: white;
     flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 20px;
 }
+
+.main-box-menu > *{
+    padding: 0 5px;
+    font-size: 0.8rem;
+    color: grey;
+    font-weight: 600;
+}
+
+
+/* album container */
+
+.album-container{
+    margin-bottom: 20px;
+}
+
+.album-container h2{
+    color: white;
+    padding: 10px;
+}
+
+.album-container h5{
+    color: grey;
+    padding: 10px;
+}
+
+.album-container h4{
+    color: white;
+}
+
+.album-container h6{
+    color: grey;
+}
+
+.album{
+    width: calc(100% / 6);
+    padding: 10px;
+    text-align: center;
+}
+
+.album img{
+    width: 100%;
+}
+
+.img-box{
+    border-radius: 50%;
+}
+
+.img-box img{
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 
 /* top bar */
 
