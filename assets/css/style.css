@@ -331,6 +331,8 @@ ul{
     border-radius: 100vmax;
 }
 
+
+
 .time-box span{
     color: white;
     font-size: 0.6rem;
@@ -427,7 +429,7 @@ ul{
     }
 
     .profile-pic-box{
-        margin-left: 5px;
+        margin-left: 8px;
     }
 
     #logo-img1{
@@ -509,3 +511,51 @@ ul{
     cursor: pointer;
     color: white;
 }
+
+.time-bar:hover{
+    cursor: pointer;
+}
+
+.time-bar:hover .fa-circle{
+    display: block;
+}
+
+.time-bar:hover .current-time{
+    position: relative;
+    background-color: #ADFF2F;
+}
+
+.time-bar .fa-circle{
+    display: none;
+    position: absolute;
+    right: 0;
+    top: -4px;
+    color: white;  
+}
+
+.volume-bar:hover{
+    cursor: pointer;
+}
+
+.volume-bar:hover .fa-circle{
+    display: block;
+}
+
+.volume-bar:hover .current-volume{
+    position: relative;
+    background-color: #ADFF2F;
+}
+
+.volume-bar .fa-circle{
+    right: -10px;
+    top: -8px;
+    display: none;
+    position: absolute;
+    color: white;  
+}
+
+.album:hover img{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
